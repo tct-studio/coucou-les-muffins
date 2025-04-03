@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 100px;
+  }
+
+.navbar .link {
+    font-weight: 700;
+    color: black;
+    padding:10px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+  }
+
+.navbar .link:hover {
+
+    color: #886176;
+    border-bottom: 2px solid #886176;
+  }
